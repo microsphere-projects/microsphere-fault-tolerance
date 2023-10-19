@@ -21,6 +21,12 @@
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>io.github.microsphere-projects</groupId>
+                <artifactId>microsphere-resilience4j-spring</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
