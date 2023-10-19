@@ -45,6 +45,7 @@
     <modules>
         <module>microsphere-fault-tolerance-parent</module>
         <module>microsphere-fault-tolerance-dependencies</module>
+        <module>microsphere-resilience4j-spring</module>
     </modules>
 
 </project>
