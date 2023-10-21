@@ -13,6 +13,7 @@
     <groupId>io.github.microsphere-projects</groupId>
     <artifactId>microsphere-fault-tolerance-tomcat-spring-cloud</artifactId>
     <version>${revision}</version>
+    <packaging>jar</packaging>
 
     <name>Microsphere :: Fault Tolerance :: Tomcat Spring Cloud</name>
     <description>Microsphere Fault Tolerance Tomcat Spring Cloud</description>
