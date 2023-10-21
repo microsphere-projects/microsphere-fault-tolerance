@@ -23,7 +23,19 @@
 
             <dependency>
                 <groupId>io.github.microsphere-projects</groupId>
-                <artifactId>microsphere-resilience4j-spring</artifactId>
+                <artifactId>microsphere-fault-tolerance-commons</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.microsphere-projects</groupId>
+                <artifactId>microsphere-fault-tolerance-resilience4j-spring</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.microsphere-projects</groupId>
+                <artifactId>microsphere-fault-tolerance-tomcat-spring-cloud</artifactId>
                 <version>${revision}</version>
             </dependency>
 
