@@ -13,7 +13,7 @@
     <groupId>io.github.microsphere-projects</groupId>
     <artifactId>microsphere-fault-tolerance-commons</artifactId>
     <version>${revision}</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>Microsphere :: Fault Tolerance :: Commons</name>
     <description>Microsphere Fault Tolerance Commons</description>
