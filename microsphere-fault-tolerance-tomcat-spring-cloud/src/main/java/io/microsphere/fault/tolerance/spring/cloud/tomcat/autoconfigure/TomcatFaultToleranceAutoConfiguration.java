@@ -36,6 +36,7 @@ import org.springframework.cloud.context.environment.EnvironmentChangeEvent;
 import org.springframework.context.event.EventListener;
 
 import static io.microsphere.constants.PropertyConstants.ENABLED_PROPERTY_NAME;
+import static io.microsphere.fault.tolerance.constants.FaultTolerancePropertyConstants.FAULT_TOLERANCE_PROPERTY_NAME_PREFIX;
 import static io.microsphere.fault.tolerance.spring.cloud.tomcat.autoconfigure.TomcatFaultToleranceAutoConfiguration.TOMCAT_PROPERTY_PREFIX;
 import static org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication.Type.SERVLET;
 
@@ -59,7 +60,7 @@ import static org.springframework.boot.autoconfigure.condition.ConditionalOnWebA
 })
 public class TomcatFaultToleranceAutoConfiguration {
 
-    public static final String TOMCAT_PROPERTY_PREFIX = FaultTolerancePropertyConstants.FAULT_TOLERANCE_PROPERTY_NAME_PREFIX + "spring.cloud.tomcat";
+    public static final String TOMCAT_PROPERTY_PREFIX = FAULT_TOLERANCE_PROPERTY_NAME_PREFIX + "spring.cloud.tomcat";
 
     @EventListener(WebServerInitializedEvent.class)
     public void onWebServerInitializedEvent(WebServerInitializedEvent event) {
