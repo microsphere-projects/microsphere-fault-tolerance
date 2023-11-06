@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-io.microsphere.fault.tolerance.spring.cloud.tomcat.autoconfigure.TomcatFaultToleranceAutoConfiguration
