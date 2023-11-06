@@ -46,8 +46,6 @@
         <module>microsphere-fault-tolerance-parent</module>
         <module>microsphere-fault-tolerance-dependencies</module>
         <module>microsphere-fault-tolerance-commons</module>
-        <module>microsphere-fault-tolerance-resilience4j-spring</module>
-        <module>microsphere-fault-tolerance-tomcat-spring-cloud</module>
     </modules>
 
 </project>
